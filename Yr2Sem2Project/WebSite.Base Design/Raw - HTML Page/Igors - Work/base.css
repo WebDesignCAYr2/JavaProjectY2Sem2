@@ -1,0 +1,187 @@
+
+/*ID - Section*/
+
+/*Used to Style Left Navigation Bar.*/
+#NavLeftBar
+{
+ border-radius:0em 0em 100em 0em;
+}
+/*Used to Style Center Navigation Bar.*/
+#NavCentBar
+{
+ border-radius:50em 50em 0em 0em;
+}
+/*Used to Style Right Navigation Bar.*/
+#NavRightBar
+{
+ border-radius:0em 0em 0em 100em;
+}
+/*Used to Style Search Bar.*/
+#SearchBar
+{
+ border-radius: 0em 0em 50em 50em;
+}
+/*Used to Style the top of the Footer of Each page.*/
+#FooterTop
+{
+ border-radius:0.2em;
+ text-align:center;
+ box-shadow: 0px 3px 5px 0px #999999;
+}
+/*Used to Style Links in the Footer.*/
+#FooterLink
+{
+ text-decoration:none;
+ font-size:0.8em;
+}
+/*Used to color text light Red/Orange.*/
+ #textLightRed,#Title,#FooterLink,#Buttons,#mediaTitleBanner,#AdminSupportViewQueryDate,#AdminSupportViewHeader,#forumIcon
+{
+ color:#e64d00;
+}
+/*Used to color text dark Red.*/
+#textDarkRed,#FooterTop,#SignIn-UpHeaders,#OptionalSecondaryNavbar
+{
+ color:#d12e2e;
+}
+/*Used to colour text light grey used in rare cases*/
+#textLightGrey,#SignUp-Optional
+{
+	color:#999999;
+}
+/*Used to Border The Pages Top Navigation Bars.*/
+#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar
+{
+ border: 0.2em solid #d12e2e;
+}
+/*Used to style border & colour it grey*/
+#borderGrey,#mediaTitleBanner,#mediaBorder,#forumIcon
+{
+	border: 0.2em solid #404040;
+}
+/*Used to color background light Grey.*/
+#BackgroundLightGrey,#Footer,#SignIn-UpBody,#SupportBody,#AdminHomeBody,#AdminSupportViewBody
+{
+ background-color:#EEEEEE;
+}
+/*Used to color background Dark grey.*/
+#BackgroundDarkGrey,#Title,#SearchBar,#forumIcon,#NavLeftBar,#NavCentBar,#NavRightBar,#FooterTop,#Buttons,#mediaTitleBanner,#SignIn-UpWrapper,#SupportWrapper,#AdminHomeWrapper,#AdminSupportViewWrapper,#OptionalSecondaryNavbar
+{
+ background-color:#404040;
+}
+/*Used to set width of the area a certain object can take up of the space provided.*/
+#setWidth
+{
+	width:100%;
+}
+/*Used to center the search bar*/
+#marginLeft
+{
+	margin-left:2em;
+}
+/*Used to style name for desktop mode*/
+#logoName
+{
+	width:15%;
+}
+/*Used to style icon for desktop mode*/
+#logoIcon
+{
+	width:10%;
+}
+
+
+
+/*Used to Style Buttons*/
+#Buttons
+{
+	border: solid 0.2em #404040;
+	font-size:1.2em;
+}
+/*Used to Style Form Labels*/
+#FormLabel
+{
+	font-size :1.15em ;
+}
+
+/*Used to create common style of the content of most pages*/
+#SignIn-UpWrapper,#SupportWrapper,#AdminHomeWrapper,#AdminSupportViewWrapper
+{
+	margin:1em;
+	border-radius:1em;
+	border-bottom:0.2em solid #404040;
+	
+}
+
+/*Used to Align text in the Center of its current position on the page.*/
+#TextAlignCenter,#Title,#SignIn-UpHeaders,#SupportHeader,#AdminHomeHeader,#AdminSupportViewHeader,#SignUp-Optional,#AdminHomeTitle,#mediaTitleBanner
+{
+	text-align:center;
+}
+
+/*Used to Align text to the right of its current position on the page.*/
+#TextAlignRight
+{
+	text-align:right;
+}
+/*Used to float object's on the page to the right.*/
+#FloatRight,#Buttons
+{
+	float:right;
+}
+/*Used to style the body of the content on most pages.*/
+#SignIn-UpBody,#SupportBody,#AdminHomeBody,#AdminSupportViewBody
+{
+	padding-top:0.8em;
+	padding-right:3.5em;
+	padding-left:3.5em;
+	padding-bottom:3.5em;
+	border-radius: 0em 0em 0.4em 0.4em;
+	
+}
+
+
+/*CLASSES - Section*/
+
+/*Used for the Advertisement carousel.*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+	  
+      width: 100%;
+      margin: auto;
+  }
+  
+  
+  
+  
+/*MEDIA QUERY - Section*/
+
+
+/*Used to edit the navbar at a certain width.*/
+@media screen and (max-width: 1710px) 
+	{
+		#NavbarResponsive,#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar
+		{
+         background-color: #404040;
+		 border: 0.2em solid #404040;
+		}		
+	}
+/*Used to re-size the websites name.*/
+@media screen and (max-width: 760px)
+	{
+		#logoName
+		{
+		  width:40%;
+		}
+		#logoIcon
+		{
+		  width: 20%;  
+		}
+		
+	}
+/*icon on the chat page  */
+#icon{
+	width:4%;
+	
+}
+

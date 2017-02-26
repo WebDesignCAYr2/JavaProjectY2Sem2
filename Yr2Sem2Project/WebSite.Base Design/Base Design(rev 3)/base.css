@@ -1,0 +1,85 @@
+
+/*ID - Section*/
+/*Used to style websites name at the top of each page*/
+#Title
+{
+ text-align:center;
+}
+/*Used to Style Left Navigation Bar.*/
+#NavLeftBar
+{
+ border-radius:0em 0em 100em 0em;
+}
+/*Used to Style Center Navigation Bar.*/
+#NavCentBar
+{
+ border-radius:50em 50em 0em 0em;
+}
+/*Used to Style Right Navigation Bar.*/
+#NavRightBar
+{
+ border-radius:0em 0em 0em 100em;
+}
+/*Used to Style Search Bar.*/
+#SearchBar
+{
+ border-radius: 0em 0em 50em 50em;
+}
+/*Used to Style Footer of Each page.*/
+#Footer
+{
+ padding:1em;
+ margin-top:1em;
+ border-radius:0.2em;
+ text-align:center;
+}
+/*Used to Style Links in the Footer.*/
+#FooterLink
+{
+ text-decoration:none;
+ font-size:0.8em;
+}
+/*Used to Center Search Bar*/
+#marginLeft
+{
+ margin-left:2em;
+}
+/*Used to color text light brown.*/
+ #textLightBrown,#Title,#FooterLink
+{
+ color:#e64d00;
+}
+/*Used to color text dark brown.*/
+#textDarkBrown
+{
+ color:brown;
+}
+/*Used to Border The Pages Top Navigation Bars.*/
+#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar
+{
+ border: 0.2em solid #e64d00;
+}
+/*Used to color background Light brown.*/
+#BackgroundLightBrown,#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar
+{
+ background-color:#e64d00;
+}
+/*Used to color background dark brown.*/
+#BackgroundDarkBrown,#Title,#Footer
+{
+ background-color:brown;
+}
+/*CLASSES - Section*/
+
+/*MEDIA QUERY - Section*/
+@media screen and (max-width: 1200px) 
+	{
+		#NavbarResponsive
+		{
+      background-color: #e64d00;
+		}		
+	}
+
+
+
+

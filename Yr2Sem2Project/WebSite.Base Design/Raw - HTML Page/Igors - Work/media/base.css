@@ -1,0 +1,129 @@
+
+/*ID - Section*/
+/*Used to style websites name at the top of each page*/
+#Title
+{
+ text-align:center;
+}
+/*Used to Style Left Navigation Bar.*/
+#NavLeftBar
+{
+ border-radius:0em 0em 100em 0em;
+}
+/*Used to Style Center Navigation Bar.*/
+#NavCentBar
+{
+ border-radius:50em 50em 0em 0em;
+}
+/*Used to Style Right Navigation Bar.*/
+#NavRightBar
+{
+ border-radius:0em 0em 0em 100em;
+}
+/*Used to Style Search Bar.*/
+#SearchBar
+{
+ border-radius: 0em 0em 50em 50em;
+}
+/*Used to Style the top of the Footer of Each page.*/
+#FooterTop
+{
+ border-radius:0.2em;
+ text-align:center;
+ box-shadow: 0px 3px 5px 0px #999999;
+}
+/*Used to Style Footer of Each page.*/
+#Footer
+{
+ background-color:#EEEEEE;
+}
+/*Used to Style Links in the Footer.*/
+#FooterLink
+{
+ text-decoration:none;
+ font-size:0.8em;
+}
+/*Used to color text light Red/Orange.*/
+ #textLightRed,#Title,#FooterLink
+{
+ color:#e64d00;
+}
+/*Used to color background light Red/Orange.*/
+#backgroundLightRed,#Panels
+{
+	background-color:#e64d00;
+}
+/*Used to Style the panels on forum*/
+#Panels
+{
+	
+	
+}
+/*Used to color text dark Red.*/
+#textDarkRed,#FooterTop
+{
+ color:#d12e2e;
+}
+/*Used to Border The Pages Top Navigation Bars.*/
+#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar
+{
+ border: 0.2em solid #d12e2e;
+}
+/*Used to color background Dark grey.*/
+#BackgroundDarkGrey,#Title,#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar,#FooterTop
+{
+ background-color:#404040;
+}
+/*Used to set width of the area a certain object can take up of the space provided.*/
+#setWidth
+{
+	width:100%;
+}
+
+#listWidth
+{
+	
+	width:100%;
+	/*padding-left: 8em;
+	padding-right: 8em;*/
+}
+/*Used to center the search bar*/
+#marginLeft
+{
+	margin-left:1.5em;
+}
+/*CLASSES - Section*/
+/*Media List Block - Section*/
+#mediaTitleBanner
+{
+	background-color: #404040;
+	color: #e64d00;
+	border: 0.2em solid #404040;
+}
+
+#buttonFloat
+{
+	float: right;
+}
+
+#mediaBorder
+{
+	border: 0.2em solid #404040;
+}
+/*Used for the Advertisement carousel.*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+	  
+      width: 100%;
+      margin: auto;
+  }
+/*MEDIA QUERY - Section*/
+@media screen and (max-width: 1710px) 
+	{
+		#NavbarResponsive,#SearchBar,#NavLeftBar,#NavCentBar,#NavRightBar
+		{
+         background-color: #404040;
+		 border: 0.2em solid #404040;
+		}		
+	}
+	
